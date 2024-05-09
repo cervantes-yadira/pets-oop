@@ -2,6 +2,7 @@
 
 // include classgit
 require('pet.php');
+require('dog.php');
 
 // instantiate a pet object
 $pet1 = new Pet("Pandora", "grey");
@@ -27,3 +28,6 @@ var_dump($pet1);
 var_dump($pet2);
 var_dump($pet3);
 echo "</pre>";
+
+$dog1 = new Dog("Fluffy", "Brown");
+$dog1->fetch();
